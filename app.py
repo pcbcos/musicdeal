@@ -7,3 +7,4 @@ def todownload():
     localtime = time.asctime( time.localtime(time.time()) )
     with open("test.txt","w") as f:
         f.writelines(localtime)
+    return localtime
